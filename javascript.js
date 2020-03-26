@@ -5,10 +5,6 @@ function b(){
 	alert("Your Sign up has completed successfully");
 	//window.history.back();	
 }
-function return(){
-	var link = 'index.html';
-	window.location.href = link;
-}
 function validate(){
 	if(f.id.value == ""){
 		alert("please Enter your ID");	
